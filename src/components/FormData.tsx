@@ -16,22 +16,18 @@ export function FormData() {
       <div>
         <fieldset>
           <legend>Select a gender:</legend>
-
           <div>
             <input type="radio" id="male" name="gender" value="male" />
             <label htmlFor="male">Male</label>
           </div>
-
           <div>
             <input type="radio" id="female" name="gender" value="female" />
             <label htmlFor="female">Female</label>
           </div>
-
           <div>
             <input type="radio" id="other" name="gender" value="other" />
             <label htmlFor="other">Other</label>
           </div>
-
           <div>
             <input
               type="radio"
@@ -48,12 +44,10 @@ export function FormData() {
         </div>
         <fieldset>
           <legend>Do you wish to receive our newsletter?:</legend>
-
           <div>
             <input type="checkbox" id="yes" name="yes" />
             <label htmlFor="yes">Yes</label>
           </div>
-
           <div>
             <input type="checkbox" id="no" name="no" />
             <label htmlFor="no">No</label>
