@@ -1,5 +1,6 @@
 import { Header } from "./Header";
 import { FormData } from "./FormData";
+import { FormAccess } from "./FormAccess";
 
 export function App() {
   return (
@@ -7,6 +8,7 @@ export function App() {
       <Header>
         <FormData></FormData>
       </Header>
+      <FormAccess></FormAccess>
     </>
   );
 }
